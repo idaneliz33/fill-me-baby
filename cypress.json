@@ -1,0 +1,19 @@
+{
+  "env": {
+    "host": "https://riskified.net.hilan.co.il",
+    "server": "https://riskified.net.hilan.co.il",
+    "startHour": "0900",
+    "endHour": "1800"
+  },
+  "baseUrl": "https://riskified.net.hilan.co.il",
+  "failOnStatusCode": true,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 0,
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 30000,
+  "responseTimeout": 30000,
+  "requestTimeout": 30000,
+  "video": false,
+  "waitForAnimations": false,
+  "animationDistanceThreshold": 50
+}
