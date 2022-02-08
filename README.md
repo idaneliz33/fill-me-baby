@@ -19,4 +19,5 @@ Automated script to fill missing hours in Hilanet hours reporting system by Cypr
 
     You can also use `npm run fill-me-baby:open` to see the automated script running in the browser by Cypress runner tool.
     
-The defaults hours are 9:00 - 18:00, to change this value edit the `startHour` and `endHour` inside `cypress.json` configuration file in the root location.
+*Note::* The defaults hours are 9:00 - 18:00, to change this value edit the `startHour` and `endHour` inside `cypress.json` configuration file in the root location
+or by adding config flags to the npm script -> `npm run fill-me-baby --env startHour=1030 --env endHour=1915`

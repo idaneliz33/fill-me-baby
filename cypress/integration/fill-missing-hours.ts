@@ -27,6 +27,6 @@ describe('Fill missing hours', () => {
                     cy.exec('echo No missing hours raws!');
                 }
             });
-        cy.get(loc.calendar.saveButton).should('be.visible').click();
+        cy.get(loc.calendar.saveButton).first().should('be.visible').click();
     });
 });
