@@ -24,9 +24,13 @@ describe('Fill missing hours', () => {
                     return false;
                 } else {
                     cy.log('No missing hours raws!');
-                    cy.exec('echo No missing hours raws!');
                 }
             });
         cy.get(loc.calendar.saveButton).contains('שמור').should('be.visible').click();
+        cy.get('div.card-body').then($popup => {
+            if ($popup.is(':visible')){
+                cy.log('No new hours to save!');
+            }
+        });
     });
 });
