@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run",
     "fill-me-baby": "./node_modules/.bin/cypress run",
-    "fill-me-baby:open": "./node_modules/.bin/cypress run"
+    "fill-me-baby:open": "./node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",
