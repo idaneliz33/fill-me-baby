@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run",
-    "fill-me-baby": "./node_modules/.bin/cypress run",
+    "fill-me-baby": "ELECTRON_ENABLE_LOGGING=1 ./node_modules/.bin/cypress run",
     "fill-me-baby:open": "./node_modules/.bin/cypress open"
   },
   "repository": {
