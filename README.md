@@ -13,7 +13,7 @@ Automated script to fill missing hours in Hilanet hours reporting system by Cypr
 4. Inside `.env` insert the env vars below:
     ```
     USER_ID={{YOUR USER ID}}
-    PASSWORD={{YOUR PASSWOED}}
+    PASSWORD={{YOUR PASSWORD}}
     ```
 5. In your terminal use `npm run fill-me-baby` to fill your missing hours.
 
