@@ -1,5 +1,5 @@
-// cypress/plugins/index.ts
-
+///<reference types="cypress-iframe" />
+// cypress/plugins/index.js
 /// <reference types="cypress" />
 
 /**
@@ -8,6 +8,7 @@
 
 require('dotenv').config({ path: `.env` , override: true });
 const webpackPreprocessor = require('@cypress/webpack-batteries-included-preprocessor');
+
 
 module.exports = (on, config) => {
 
